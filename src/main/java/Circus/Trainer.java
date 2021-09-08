@@ -1,3 +1,9 @@
+package Circus;
+
+import Circus.animal.Animal;
+import Circus.animal.Bird;
+import Circus.animal.Duck;
+
 public class Trainer {
     public static void main(String[] args) {
         Duck d = new Duck();
@@ -14,10 +20,6 @@ public class Trainer {
 
         train(new Duck());
         // train(new Parrot());
-
-        Animal a2 = new Animal();
-        Bird b2 = new Bird();
-
     }
 
     private static void getToSpeak(Animal animal) {
@@ -25,7 +27,9 @@ public class Trainer {
     }
 
     private static void train(Bird bird) {
-        Duck d = (Duck) bird;
-        d.swim();
+        if (bird instanceof Duck) {
+            Duck d = (Duck) bird;
+            d.swim();
+        }
     }
 }
