@@ -1,6 +1,6 @@
-I'm a Duck
-Quack Quack
-I'm a parrot
+I'm Drake. I am a Duck!
+I'm Drake. I am a Duck!  Quack Quack
+My name is Polly. I am a Parrot!
 Polly wants a cracker
 Adding item value: 10
 Adding item value: 20
